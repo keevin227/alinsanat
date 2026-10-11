@@ -1,6 +1,6 @@
 # Boroumand Trading — Digital Growth Proposal
 
-Persian, RTL presentation with a researched service matrix, four selectable plans, growth progression, a live monthly budget, optional sales-share calculator, and copyable proposal summary.
+Persian/English presentation adapted from the exact decrypted BuildEasy template: original dark green/cyan palette, typography, cards, header, chapter markers, theme modes and password screen. Includes a researched service matrix, four selectable plans, growth progression, live monthly budget, optional sales-share calculator and copyable summary.
 
 ## Run
 Serve this directory with any static HTTP server, for example `python -m http.server 8000`. No build or dependency installation is required.
@@ -23,4 +23,7 @@ Serve this directory with any static HTTP server, for example `python -m http.se
 GEO means Generative Engine Optimization; AEO means Answer Engine Optimization. The page makes no claim of a technical audit or access to internal company data.
 
 ## Provenance
-Initialized from keevin227/build-easy, commit b227684. The original encrypted presentation is retained in Git history; its content has been replaced. The embedded Vazirmatn font was extracted into a local asset to avoid third-party runtime dependencies.
+Initialized from keevin227/build-easy, commit b227684. The original encrypted presentation is retained in Git history; its content has been replaced. The original stylesheet, including its embedded Vazirmatn fonts, is preserved as the exact prefix of style.css. Scoped additions support the package selector. Original Revit demo content and PDFs have been replaced with the Boroumand proposal. The encrypted, self-contained GitHub Pages output is docs/index.html; the workflow deploys only docs/.
+
+## Verification
+Browser checks cover correct and incorrect passwords, the original dark background, all 16 plan combinations, sales-share estimates, language/theme controls, mobile overflow and JavaScript errors.
